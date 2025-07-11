@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do Sorcerer</title>
+  <link rel="stylesheet" href="TASK3.CSS" />
+</head>
+<body>
+  <div class="todo-container">
+    <h1>🧙 To-Do Sorcerer</h1>
+
+    <div class="menu">
+      <button class="menu-btn active" data-menu="all">All</button>
+      <button class="menu-btn" data-menu="active">Active</button>
+      <button class="menu-btn" data-menu="completed">Completed</button>
+      <button class="menu-btn" data-menu="trash">Trash</button>
+    </div>
+
+    <div class="input-box">
+      <input type="text" id="taskInput" placeholder="What's your next spell...">
+      <button id="addTask">✨</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="TASK3.JS"></script>
+</body>
+</html>
